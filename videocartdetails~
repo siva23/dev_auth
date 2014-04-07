@@ -1,0 +1,36 @@
+     
+app name: videocart
+OAuth
+
+Client ID
+Also known as Consumer Key or API Key-
+
+48315613d6a6df52a740c1b44038453a5f61300e
+
+
+
+Client Secret
+Also known as Consumer Secret or API Secret-
+
+5daf0e2a00cdd9df59bb6e58ccca4e344ddc03da
+
+
+
+Request Token URL-https://vimeo.com/oauth/request_token
+
+Authorize URL-https://vimeo.com/oauth/authorize
+
+Access Token URL-https://vimeo.com/oauth/access_token
+
+Your access token
+You can use this OAuth Access Token to access your account with this app.
+Access token-91115f79cf64dd3f861325fb00a784de
+
+Access token secret-e16a1946774581f230d3315016bf372c46beaae5
+*********************************************************************************************************
+
+
+
+
+
+

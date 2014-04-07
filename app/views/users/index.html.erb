@@ -1,0 +1,11 @@
+<h1>You have signed in successfully</h1>
+
+for public videos<br/>
+<%@user_info.inspect%>
+<%@user_info.each do|e|%>
+	<%=e["url"]%><br/>
+	<%=e["id"]%><br/>
+	<iframe src="//player.vimeo.com/video/<%=e['id']%>" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<%end%>
+
+For private videos
