@@ -32,11 +32,8 @@ test:
   socket: /var/run/mysqld/mysqld.sock
 
 production:
-  adapter: mysql2
+  adapter: postgresql
   encoding: utf8
-  reconnect: false
   database: dev_auth_production
   pool: 5
-  username: root
   password: siriinnovations
-  socket: /var/run/mysqld/mysqld.sock
