@@ -1,20 +1,20 @@
 class UsersController < ApplicationController
    before_filter :authenticate_admin!
   
-  def index #for public videos
-  	#@user_info = Vimeo::Simple::User.videos("user25247730") 
-    @user_info = Vimeo::Simple::User.videos("user9436893") 
-  end
-
-
-  # def index #for private videos
-	 #  	@base = Vimeo::Advanced::Base.new("6e5c231d7fe43552b47b7dbd2971a795d5bbc3ca", "7f54ccb85f39876529230420e73c34ac75a63c9d")
-	 #  	puts "#{@base.inspect}//////////////////////////////"
-	 #  	request_token = @base.get_request_token
-	 #  	puts "#{request_token}////////////////////////////////"
-	 #  	session[:oauth_secret] = request_token.secret
-	 #  	redirect_to @base.authorize_url
+  # def index #for public videos
+  # 	#@user_info = Vimeo::Simple::User.videos("user25247730") 
+  #   @user_info = Vimeo::Simple::User.videos("user9436893") 
   # end
+
+
+  def index #for private videos
+	  	@base = Vimeo::Advanced::Base.new("6e5c231d7fe43552b47b7dbd2971a795d5bbc3ca", "7f54ccb85f39876529230420e73c34ac75a63c9d")
+	  	puts "#{@base.inspect}//////////////////////////////"
+	  	request_token = @base.get_request_token
+	  	puts "#{request_token}////////////////////////////////"
+	  	session[:oauth_secret] = request_token.secret
+	  	redirect_to @base.authorize_url
+  end
 
   def new
   end
