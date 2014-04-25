@@ -36,3 +36,22 @@ https://developer.vimeo.com/apps/35949/edit
 
 http://siriinnovations.in/test.php
 http://warm-spire-3663.herokuapp.com/
+####################################################################
+https://developer.vimeo.com/apps/36733
+
+app name: video-cart
+Client ID
+Also known as Consumer Key or API Key-	6e5c231d7fe43552b47b7dbd2971a795d5bbc3ca
+
+Client Secret
+Also known as Consumer Secret or API Secret- 7f54ccb85f39876529230420e73c34ac75a63c9d
+
+Request Token URL-------- https://vimeo.com/oauth/request_token
+
+Authorize URL ----	https://vimeo.com/oauth/authorize
+
+	Access Token URL---------------	https://vimeo.com/oauth/access_token
+
+	Access token-b420e69b33ad75be0607bc574820963b
+
+Access token secret-279487403f38bc63104e119b374b74b44152a83a
